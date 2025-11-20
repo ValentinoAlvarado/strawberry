@@ -1,0 +1,13 @@
+train: 'Strawberry Object Detection.v18i.yolov11/train/images'
+val: 'Strawberry Object Detection.v18i.yolov11/valid/images'
+test: 'Strawberry Object Detection.v18i.yolov11/test/images'
+
+nc: 2
+names: ['ripe', 'unripe']
+
+roboflow:
+  workspace: cesar-garcia-f3h4o
+  project: strawberry-object-detection
+  version: 18
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cesar-garcia-f3h4o/strawberry-object-detection/dataset/18
